@@ -7,8 +7,11 @@ on:
   schedule:
     - cron:  '0 12 * * 6'
 
+permissions:
+  packages: write
+
 env:
-  REGISTRY_IMAGE: thefirstofthe300/docker
+  REGISTRY_IMAGE: thefirstofthe300/nextcloud-docker
 
 jobs:
   build:
