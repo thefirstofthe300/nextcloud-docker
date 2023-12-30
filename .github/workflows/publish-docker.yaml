@@ -20,7 +20,7 @@ jobs:
         versions:
           - 26.0.10
           - 27.1.5
-          - 28.0.0
+          - 28.0.1
         platform:
           - linux/amd64
           # - linux/arm64
